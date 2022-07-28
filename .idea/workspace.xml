@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/less1hw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/less1hw/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/june2022-JS.iml" afterDir="false" />
+    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less 1">
+      <change afterPath="$PROJECT_DIR$/lesson2/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/homework/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/less1hw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/less1hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +41,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JS\june2022-JS\lesson1\homework" />
+      <recent name="D:\JS\june2022-JS\lesson1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,8 +59,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658753839625</updated>
-      <workItem from="1658753841370" duration="7982000" />
+      <workItem from="1658753841370" duration="8402000" />
+      <workItem from="1658770408544" duration="2010000" />
+      <workItem from="1659005778960" duration="8403000" />
     </task>
+    <task id="LOCAL-00001" summary="less 1">
+      <created>1658765170081</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658765170081</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="less 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="less 1" />
   </component>
 </project>
