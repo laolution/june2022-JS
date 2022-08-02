@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less 1">
-      <change afterPath="$PROJECT_DIR$/lesson2/homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson2/homework/main.js" afterDir="false" />
+    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less 2 hw">
+      <change afterPath="$PROJECT_DIR$/lesson3/homework/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/homework/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/less1hw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/less1hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/homework/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JS\june2022-JS\lesson1\homework" />
@@ -61,7 +59,10 @@
       <updated>1658753839625</updated>
       <workItem from="1658753841370" duration="8402000" />
       <workItem from="1658770408544" duration="2010000" />
-      <workItem from="1659005778960" duration="8403000" />
+      <workItem from="1659005778960" duration="8541000" />
+      <workItem from="1659044416874" duration="625000" />
+      <workItem from="1659357112725" duration="1332000" />
+      <workItem from="1659437747070" duration="11760000" />
     </task>
     <task id="LOCAL-00001" summary="less 1">
       <created>1658765170081</created>
@@ -70,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658765170081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="less 3 hw">
+      <created>1659044250052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659044250053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="less 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="less 1" />
+    <MESSAGE value="less 3 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="less 3 hw" />
   </component>
 </project>
