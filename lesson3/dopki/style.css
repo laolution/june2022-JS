@@ -1,0 +1,58 @@
+/*.users-box {*/
+/*    display: flex;*/
+/*    !*flex-direction: column;*!*/
+/*    flex-wrap: wrap;*/
+/*    gap: 15px;*/
+
+/*}*/
+
+/*.user-block {*/
+/*    width: 600px;*/
+/*    background: greenyellow;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+
+/*}*/
+/*body {*/
+/*    background: blue;*/
+/*    font-family: Calibri;*/
+
+/*}*/
+/*.adress-block {*/
+/*    font-family: Calibri;*/
+/*    font-size: 15px;*/
+
+/*}*/
+/*h3 {*/
+/*    font-size: 20px;*/
+
+/*}*/
+
+/*//----------------------------------------------------------------------------*/
+.wrap {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-evenly;
+
+}
+.post-card {
+    width: 300px;
+    background: #cc6542;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+
+
+}
+body {
+    background: green;
+
+}
+
+
+
