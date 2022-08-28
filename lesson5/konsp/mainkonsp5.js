@@ -2,7 +2,7 @@
 // function writer(text) {
 //     document.write(`<div>${text}</div>`)
 // }
-//
+
 // writer('hello');
 // writer('dodood');
 
@@ -157,7 +157,7 @@
 //     }
 //     return min;
 // };
-
+// findMin(arr)
 //--------------------------створити масив з рандомними значеннями і масив з числами помноженими на 5
 // const arr1 = [];
 // for (let i = 0; i < 10; i++) {
@@ -170,13 +170,3 @@
 // console.log(arr1);
 // console.log(arr2);
 
-//8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо елемент є числом - додати його в інший масив.
-
-let array = ['ertre', 54, true, 'fgd', 46, 78, '34', false, 45];
-let array2 = [];
-for (let arrayElement of array) {
-    if (typeof arrayElement === `number`) {
-        array2 = array;
-    }
-}
-console.log(array2);
