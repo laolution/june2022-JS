@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DomCreate</title>
+    <style>
+
+        .product-box {
+            width: 200px;
+        }
+
+        .product-box > img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<ul class="target"></ul>
+<div class="targeto"></div>
+
+
+<script>
+    // let h2 = document.createElement('h2');
+    // document.body.appendChild(h2);
+    // h2.innerText = 'title';
+    // h2.style.background = 'green';
+
+    //-------------------------------------------------------
+
+    // let users = [
+    //     {name: 'vasya', age: 31, status: false},
+    //     {name: 'petya', age: 30, status: true},
+    //     {name: 'kolya', age: 29, status: true},
+    //     {name: 'olya', age: 28, status: false},
+    //     {name: 'max', age: 30, status: true},
+    //     {name: 'anya', age: 31, status: false},
+    //     {name: 'oleg', age: 28, status: false},
+    //     {name: 'andrey', age: 29, status: true},
+    //     {name: 'masha', age: 30, status: true},
+    //     {name: 'olya', age: 31, status: false},
+    //     {name: 'max', age: 31, status: true}
+    // ];// масив прийшов звідкись
+    //
+    // let target = document.getElementsByClassName('target')[0];// знаходимо ul з класом таргет щоб додавати в нього цикл зі створеними юзерами
+    //
+    // for (const user of users) {
+    //     let li = document.createElement('li');//створення елемента для кожного юзера
+    //     li.innerText = `${user.name} - ${user.age}`;//впроваджуєм кожному елементу дані з масиву
+    //     target.appendChild(li);//лішку додаємо в таргет
+    // }
+
+//---------------------------------------------
+//     let products = [
+//         {
+//             title: 'milk',
+//             price: 22,
+//             image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+//         },
+//         {
+//             title: 'juice',
+//             price: 27,
+//             image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+//         },
+//         {
+//             title: 'tomato',
+//             price: 47,
+//             image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+//         },
+//         {
+//             title: 'tea',
+//             price: 15,
+//             image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+//         },
+//         {
+//             title: 'cola',
+//             price: 35,
+//             image: 'https://okwine.ua/files/product/1968974878446978521/cd18e450-11dc-11eb-abc0-791296eec59d.jpg.jpg'
+//         }
+//     ];
+//
+//     let targets = document.getElementsByClassName('targeto');//витягнули набір дівів
+//     let target = targets[0];//взяли його 1 елемент
+//
+//     for (const product of products) {
+//         let div = document.createElement('div');//створили елемент під кожен продукт
+//         div.classList.add('product-box');// надали йому клас
+//
+//         let productTitle = document.createElement('h2');//створили елемент Н2 --це продукт і ціна
+//         productTitle.innerText = product.title + " " + product.price;
+//         div.appendChild(productTitle);//додали елемент в дів
+//
+//         let img = document.createElement('img');
+//
+//         img.src = product.image;
+//         div.appendChild(img);
+//
+//
+//         target.appendChild(div);
+//     }
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

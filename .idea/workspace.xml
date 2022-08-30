@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="add a lot">
-      <change afterPath="$PROJECT_DIR$/lesson 7/konsp/JS_konsp_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 7/konsp/konsp7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5/homework/mainl5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/dopki/indexdop6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/dopki/maindop6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/homework/indexl6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/homework/mainl6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/konsp/indexkonsp6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6/konsp/mainkonsp6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/homework/index_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/homework/main_8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/konspekt/JS_konsp_8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson8/konspekt/konsp_8.html" afterDir="false" />
+    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less 8 hw">
+      <change afterPath="$PROJECT_DIR$/lesson 9/homework/HW_index_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9_DOMcreate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/recursion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konspekt1-4les/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/konspekt1-4les/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/konspekt1-4les/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/konspekt1-4les/1-4konsp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/homework/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/homework/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/homework/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/konsp/indexkonsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/konsp/lesson5konsp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5/konsp/mainkonsp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/konsp/mainkonsp5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,7 +75,8 @@
       <workItem from="1660211978956" duration="17798000" />
       <workItem from="1660579814521" duration="55823000" />
       <workItem from="1661592951729" duration="1215000" />
-      <workItem from="1661595035904" duration="26241000" />
+      <workItem from="1661595035904" duration="43871000" />
+      <workItem from="1661876055214" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="less 1">
       <created>1658765170081</created>
@@ -117,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660170363268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="less 8 hw">
+      <created>1661646205361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661646205361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +134,7 @@
     <MESSAGE value="less 1" />
     <MESSAGE value="less 3 hw" />
     <MESSAGE value="add a lot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a lot" />
+    <MESSAGE value="less 8 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="less 8 hw" />
   </component>
 </project>
