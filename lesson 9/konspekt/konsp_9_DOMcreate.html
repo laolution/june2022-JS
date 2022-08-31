@@ -54,53 +54,53 @@
     // }
 
 //---------------------------------------------
-//     let products = [
-//         {
-//             title: 'milk',
-//             price: 22,
-//             image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
-//         },
-//         {
-//             title: 'juice',
-//             price: 27,
-//             image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
-//         },
-//         {
-//             title: 'tomato',
-//             price: 47,
-//             image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
-//         },
-//         {
-//             title: 'tea',
-//             price: 15,
-//             image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
-//         },
-//         {
-//             title: 'cola',
-//             price: 35,
-//             image: 'https://okwine.ua/files/product/1968974878446978521/cd18e450-11dc-11eb-abc0-791296eec59d.jpg.jpg'
-//         }
-//     ];
-//
-//     let targets = document.getElementsByClassName('targeto');//витягнули набір дівів
-//     let target = targets[0];//взяли його 1 елемент
-//
-//     for (const product of products) {
-//         let div = document.createElement('div');//створили елемент під кожен продукт
-//         div.classList.add('product-box');// надали йому клас
-//
-//         let productTitle = document.createElement('h2');//створили елемент Н2 --це продукт і ціна
-//         productTitle.innerText = product.title + " " + product.price;
-//         div.appendChild(productTitle);//додали елемент в дів
-//
-//         let img = document.createElement('img');
-//
-//         img.src = product.image;
-//         div.appendChild(img);
-//
-//
-//         target.appendChild(div);
-//     }
+    let products = [
+        {
+            title: 'milk',
+            price: 22,
+            image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+        },
+        {
+            title: 'juice',
+            price: 27,
+            image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+        },
+        {
+            title: 'tomato',
+            price: 47,
+            image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+        },
+        {
+            title: 'tea',
+            price: 15,
+            image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+        },
+        {
+            title: 'cola',
+            price: 35,
+            image: 'https://okwine.ua/files/product/1968974878446978521/cd18e450-11dc-11eb-abc0-791296eec59d.jpg.jpg'
+        }
+    ];
+
+    let targets = document.getElementsByClassName('targeto');//витягнули набір дівів
+    let target = targets[0];//взяли його 1 елемент
+
+    for (const product of products) {
+        let div = document.createElement('div');//створили елемент під кожен продукт
+        div.classList.add('product-box');// надали йому клас
+
+        let productTitle = document.createElement('h2');//створили елемент Н2 --це продукт і ціна
+        productTitle.innerText = product.title + " " + product.price;
+        div.appendChild(productTitle);//додали елемент в дів
+
+        let img = document.createElement('img');
+
+        img.src = product.image;
+        div.appendChild(img);
+
+
+        target.appendChild(div);
+    }
 
 
 

@@ -1,0 +1,44 @@
+h2 {
+    border: solid black 2px;
+text-align: center;
+}
+div{
+    color: #000000;
+    background: #83c783;
+}
+.member {
+    text-align: center;
+
+}
+
+.monho {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid black 2px;
+    margin-bottom: 1px;
+;
+}
+
+.uli {
+    text-align: center;
+    border: solid black 2px;
+
+}
+
+.lis {
+    border: solid black 2px;
+    margin-bottom: 1px;
+
+}
+
+.mon{
+    border: solid black 2px;
+
+}
+
+.ho{
+    border: solid black 2px;
+
+}
+
+

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less 8 hw">
-      <change afterPath="$PROJECT_DIR$/lesson 9/homework/HW_index_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9_DOMcreate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 9/konspekt/recursion.html" afterDir="false" />
+    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="proj">
+      <change afterPath="$PROJECT_DIR$/lesson 9/homework/style_9.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 9/homework/HW_index_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/homework/HW_index_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9_DOMcreate.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/konspekt/konsp_9_DOMcreate.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,7 +44,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -76,7 +73,12 @@
       <workItem from="1660579814521" duration="55823000" />
       <workItem from="1661592951729" duration="1215000" />
       <workItem from="1661595035904" duration="43871000" />
-      <workItem from="1661876055214" duration="2063000" />
+      <workItem from="1661876055214" duration="2107000" />
+      <workItem from="1661881420289" duration="21000" />
+      <workItem from="1661881564595" duration="317000" />
+      <workItem from="1661882419912" duration="1393000" />
+      <workItem from="1661888563108" duration="2261000" />
+      <workItem from="1661969393162" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="less 1">
       <created>1658765170081</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661646205361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="less 9">
+      <created>1661881382502</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661881382502</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +144,7 @@
     <MESSAGE value="less 3 hw" />
     <MESSAGE value="add a lot" />
     <MESSAGE value="less 8 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="less 8 hw" />
+    <MESSAGE value="less 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="less 9" />
   </component>
 </project>
