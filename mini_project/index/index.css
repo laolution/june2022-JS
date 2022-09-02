@@ -1,0 +1,27 @@
+
+.users {
+    background: #ba1e1e;
+    border: 1px solid black;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn{
+    background: gold;
+}
+.btn:hover{
+    background: #3bdc17;
+}
+.mainDiv{
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+
+}

@@ -204,13 +204,13 @@
 // - додати цей блок в body.
 // - клонувати його повністю, та додати клон в body.
 
-const div = document.createElement('div');
-
-div.classList.add('wrap', 'collapse', 'alpha','beta')
-document.body.append(div);
-
-const node = div.cloneNode(true);
-document.body.appendChild(node);
+// const div = document.createElement('div');
+//
+// div.classList.add('wrap', 'collapse', 'alpha','beta')
+// document.body.append(div);
+//
+// const node = div.cloneNode(true);
+// document.body.appendChild(node);
 
 
 
@@ -219,15 +219,15 @@ document.body.appendChild(node);
 // Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку .menu
 // Завдання робити через цикли.
 
-let array = ['Main','Products','About us','Contacts'];
-
-const menu = document.getElementsByClassName('menu')[0];
-
-for (const item of array) {
-    const li = document.createElement('li');
-    li.innerText = item;
-    menu.appendChild(li);
-}
+// let array = ['Main','Products','About us','Contacts'];
+//
+// const menu = document.getElementsByClassName('menu')[0];
+//
+// for (const item of array) {
+//     const li = document.createElement('li');
+//     li.innerText = item;
+//     menu.appendChild(li);
+// }
 
 
 
@@ -243,7 +243,16 @@ for (const item of array) {
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
 
+// let mass = document.getElementsByClassName('ass')[0];
 
+
+
+// for (const item of coursesAndDurationArray) {
+//     let divo=document.createElement('ul')
+//     divo.innerText=`${item.title}---${item.monthDuration}`
+//     mass.appendChild(divo)
+//
+// }
 
 
 
@@ -258,18 +267,84 @@ for (const item of array) {
 // ];
 //
 //
-// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
+// За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>
+// з title  елементу, та <p class='description'> з monthDuration елементу.
 // Завдання робити через цикли.
+
+// let mass = document.createElement('div');
+// mass.classList.add('erod')
+// document.body.appendChild(mass);
 //
+// for (const item of coursesAndDurationArray) {
+//     let innerDiv = document.createElement('div');
+//     innerDiv.classList.add('item');
+//     mass.appendChild(innerDiv)
 //
+//     let h1 = document.createElement('h1');
+//     h1.classList.add('heading');
+//     h1.innerText = `${item.title}`;
+//     innerDiv.appendChild(h1);
 //
+//     let p = document.createElement('p');
+//     p.classList.add('description');
+//     p.innerText = `${item.monthDuration}`;
+//     innerDiv.appendChild(p);
+
+
+
+// }
+
+
+
 // -----------
 //
-// - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+// - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку
+// зникав елемент з id="text".
+
+
+// let div = document.createElement('div');
+// div.setAttribute('id', 'text');
+// div.innerText = 'hello';
 //
+// let button = document.createElement('button');
+// button.innerText = 'click';
 //
-// - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+// button.onclick = () => {
+//     div.classList.toggle('hidden');
 //
+// };
+// document.body.append(div, button);
+
+
+// - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на
+// кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+
+let input = document.createElement('input');
+input.type = 'number';
+
+let button = document.createElement('button');
+button.innerText = 'click';
+
+document.body.append(button, input);
+
+button.onclick = () => {
+    let value=input.value
+    if (
+        value > 0 && value < 18
+    ) {
+        alert('stop');
+    }
+    else if (value >= 18) {
+        alert('hello');
+
+    } else {
+        alert('go');
+    }
+};
+
+
+
+
 //
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 // При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.

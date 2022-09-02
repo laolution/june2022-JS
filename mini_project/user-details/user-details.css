@@ -1,0 +1,43 @@
+.details{
+    background: #ba1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btnDetails:hover{
+    background: #3bdc17;
+}
+.btnPosts:hover{
+    background: #3bdc17;
+}
+.divComent{
+    background: #ba1e1e;
+}
+.btnDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+.btn{
+    background: #3bdc17;
+}
+.allDiv{
+    flex-wrap: wrap;
+    background: #ba1e1e;
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 230px;
+    width: 1110px ;
+
+}
+.divClass{
+    border: 1px solid black;
+    width: 220px;
+    height: 80px;
+}
+body{
+    color: white;
+
+}
