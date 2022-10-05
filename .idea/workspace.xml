@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="weew">
-      <change afterPath="$PROJECT_DIR$/lesson10/homework/less_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/homework/less_10_JS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/konspekt/konsp_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/konspekt/konsp_10_JS_.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/konspekt/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10/konspekt/posts_js_.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/homework/less11_HW_.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/homework/less11_hw.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/konspekt_11/less_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11/konspekt_11/less_11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/index/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/index/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/post_info/post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/post_info/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/post_info/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/user_info/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/user_info/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1_2/user_info/user.js" afterDir="false" />
+    <list default="true" id="b0536546-fefd-4346-b543-f84bc96bedb2" name="Changes" comment="less11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/homework/JS_main_9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson 9/konspekt/recursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 9/konspekt/recursion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/homework/less11_HW_.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/homework/less11_HW_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11/konspekt_11/less_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11/konspekt_11/less_11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +86,8 @@
       <workItem from="1663869037084" duration="6644000" />
       <workItem from="1664124775437" duration="604000" />
       <workItem from="1664462500879" duration="11836000" />
-      <workItem from="1664802207243" duration="12972000" />
+      <workItem from="1664802207243" duration="13231000" />
+      <workItem from="1664984947735" duration="9138000" />
     </task>
     <task id="LOCAL-00001" summary="less 1">
       <created>1658765170081</created>
@@ -156,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663201137262</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="less11">
+      <created>1664835704364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664835704364</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +169,7 @@
     <MESSAGE value="less 8 hw" />
     <MESSAGE value="less 9" />
     <MESSAGE value="weew" />
-    <option name="LAST_COMMIT_MESSAGE" value="weew" />
+    <MESSAGE value="less11" />
+    <option name="LAST_COMMIT_MESSAGE" value="less11" />
   </component>
 </project>

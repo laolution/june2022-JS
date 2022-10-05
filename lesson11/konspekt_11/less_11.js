@@ -45,46 +45,47 @@ function buySouvenirs(money) {
 }
 
 //ПРОМІСИ
-// goWork(true)
-//     .then(payment => {
-//         console.log('i got', payment, 'from work');
-//
-//         return goToAmerika(money)
-//     })
-//     .then(moneyAfterTrip => {
-//         console.log('i got', moneyAfterTrip, '$');
-//
-//         return buySouvenirs(money);
-//     })
-//     .then(moneyAfterShopping => {
-//         console.log('i got', moneyAfterShopping);
-//     })
-//     .catch(reason => {
-//         console.warn('oooops', reason);
-//     })
-//     .finally(() => console.log('finally'))
+goWork(false)
+    .then(payment => {
+        console.log('i got', payment, 'from work');
+
+        return goToAmerika(money)
+    })
+    .then(moneyAfterTrip => {
+        console.log('i got', moneyAfterTrip, '$');
+
+        return buySouvenirs(money);
+    })
+    .then(moneyAfterShopping => {
+        console.log('i got', moneyAfterShopping);
+    })
+    .catch(reason => {
+        console.warn('oooops', reason);
+    })
+    .finally(() => console.log('finally'))
 
 
 //promise ALL
 //запускає всі незалежні між собою проміси одночасно
 //якщо падає хоч один то весь ланцюг падає
-const one=new Promise(resolve => {
-    setTimeout(()=>{
-        resolve(1)
-    },2000)
-})
+// const one=new Promise(resolve => {
+//     setTimeout(()=>{
+//         resolve(1)
+//     },2000)
+// })
+//
+// const two=new Promise((resolve, reject) => {
+//     setTimeout(()=>{
+//         reject(2)
+//     },500)
+// })
+//
+// const three=new Promise(resolve => {
+//     setTimeout(()=>{
+//         resolve(3)
+//     },1000)
+// })
 
-const two=new Promise((resolve, reject) => {
-    setTimeout(()=>{
-        reject(2)
-    },500)
-})
-
-const three=new Promise(resolve => {
-    setTimeout(()=>{
-        resolve(3)
-    },1000)
-})
 // Promise.all([one, two, three])
 //     .then(value => {
 //         console.log(value);
@@ -100,10 +101,10 @@ const three=new Promise(resolve => {
 //     })
 
 //RACE повертає першу ланку яка обчислилась найшвидше
-Promise.race([one, two, three])
-    .then(value => {
-        console.log(value);
-    })
+// Promise.race([one, two, three])
+//     .then(value => {
+//         console.log(value);
+//     })
 //--------------------------------------------
 
 //Async/Await
